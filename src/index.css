@@ -8,6 +8,9 @@ body {
   background-color: #121212;
   color: white;
   font-family: 'Montserrat';
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 code {
