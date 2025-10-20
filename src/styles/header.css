@@ -1,0 +1,38 @@
+header{
+    border: 1px white solid;
+    display: flex;
+    flex: 1 2 1;    
+    box-shadow: 0px 1px 10px 1px #ffffff;
+    position: static;
+}   
+
+header .logo{
+    border: 1px white solid;
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+header .logo p{
+    border: 1px white solid;
+    width: fit-content;
+}
+
+header nav{
+    border: 1px white solid;
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10;
+}
+
+header .repository{
+    border: 1px white solid;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

@@ -1,0 +1,11 @@
+footer{
+    width: 100vw;
+    border: 1px black solid;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0px 10px 15px 5px #ffffff
+}
