@@ -1,4 +1,64 @@
 main{
     border: 1px red solid;
-    min-height: 100vh;
+    min-height: 210vh;
+    display: flex;
+    flex-direction: column;
 }
+
+main article{
+    border: 1px rgb(255, 255, 255) solid;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Customização das três seções da HOME */
+
+.robotPresentation-container{
+    border: 1px rgb(9, 255, 0) solid;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.robotPresentation-container-photo{
+    border: 1px pink solid;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.robotPresentation-container-text{
+    width: 60%;
+    text-align: justify;
+    padding: 0 2%;
+    line-height: 45px;
+}
+
+.KINO_TEKI_SQUARE{
+    width: 80%;
+    height: 90%;
+    justify-self: start;
+}
+
+.homeTitle{
+    border: 1px red solid;
+    margin: 0;
+    padding: 1% 0;
+}
+
+/* 
+
+.robotPresentation{
+
+}
+
+.investmentProcess{
+    
+}
+
+.robotCTA{
+} */
